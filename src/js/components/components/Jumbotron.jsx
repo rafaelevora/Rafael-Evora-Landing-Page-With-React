@@ -1,0 +1,28 @@
+import React from "react";
+
+const Jumbotron = () => {
+
+return (
+    <>
+        <div className="row">
+            <div className="col-2"></div>
+            <div className="col-8">
+                <div class="p-5 mb-4 bg-body-tertiary rounded-3"> 
+                    <div class="container-fluid py-5"> 
+                        <h1 class="display-5 fw-bold">A Warm Welcome</h1> 
+                        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p> 
+                        <button class="btn btn-primary btn-lg" type="button">Example button</button> 
+                    </div> 
+                </div>
+            </div>
+            <div className="col-2"></div>
+
+        </div>
+                
+    </>
+
+)
+
+}
+
+export default Jumbotron
